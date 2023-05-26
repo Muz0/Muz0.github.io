@@ -1,0 +1,44 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body{
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url("../img/header_blur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+  > div img {
+    height: 100px;
+    width: 100px;
+    margin: 16px 0px;
+    filter: blur(3px);
+  }
+
+  >div:nth-child(2){
+    > p{
+      width: fit-content;
+      border: 2px solid #ffffff;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 5px 25px;
+    }
+  }
+}
+
+main {
+}
+
+aside {
+}
+
+footer {
+}
